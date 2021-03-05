@@ -12,7 +12,7 @@ async def on_message(message):
     return
   
   def multi_dice():
-    if message.content.startswith('{0}roll'.format(call_bot)):
+    if message.content.startswith('{0}d'.format(call_bot)):
       multi_dice.nickname = message.author.display_name
       
       sides = message.content[2:]
