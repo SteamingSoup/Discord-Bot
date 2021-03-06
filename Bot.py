@@ -54,4 +54,4 @@ async def on_message(message):
                                  "\n"
                                  "Bot rolls a dx die where x is the sides"
                                  "\n"
-                                 "Example: !d20 will roll a d20"
+                                 "Example: !r d20 will roll a d20"
